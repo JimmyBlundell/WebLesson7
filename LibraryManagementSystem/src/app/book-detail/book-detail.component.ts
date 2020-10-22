@@ -9,7 +9,17 @@ import {ApiService} from '../api.service';
 })
 export class BookDetailComponent implements OnInit {
 
-  book = {};
+  book = {
+    title: undefined,
+    description: undefined,
+    isbn: undefined,
+    author: undefined,
+    publisher: undefined,
+    published_year: undefined,
+    updated_date() {
+
+    }
+  };
 
   constructor(private route: ActivatedRoute, private api: ApiService, private router: Router) {
   }

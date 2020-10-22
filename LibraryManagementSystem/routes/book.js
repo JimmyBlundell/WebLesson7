@@ -27,21 +27,23 @@ router.post('/', function (req, res, next) {
 });
 
 /* UPDATE BOOK */
-router.put('/:id',function(req, res, next){
-  Book.findByIdAndUpdate(req.params.id,req.body,function(err, post) {
-    if (err)
-      return next(err);
+router.put('/:id', function (req, res, next) {
+  var query = {_id: req.params.id};
+  var values = { $set: req.body };
+  Book.updateOne(query, values, function (err, post) {
+    if (err)  {console.error(err);return next(err)}
     res.json(post);
   });
 });
 
 /* DELETE BOOK */
-router.delete('/:id',function(req, res, next){
-  Book.findByIdAndRemove(req.params.id, req.body,function(err, post){
-    if (err)
-      return next(err);
+router.delete('/:id', function (req, res, next) {
+  var query = {_id: req.params.id};
+  Book.deleteOne(query, function (err, post) {
+    if (err)  {console.error(err);return next(err)}
     res.json(post);
   });
 });
+
 
 module.exports = router;
