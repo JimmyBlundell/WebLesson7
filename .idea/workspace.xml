@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4be206e4-d21a-42e8-9b1f-3796475498c9" name="Default Changelist" comment="added edit/delete functionality">
-      <change afterPath="$PROJECT_DIR$/LibraryManagementSystem/screenshots/bookdetails.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryManagementSystem/screenshots/bookeditcode1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryManagementSystem/screenshots/bookeditcode2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryManagementSystem/screenshots/bookjscode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryManagementSystem/screenshots/deletedbook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryManagementSystem/screenshots/homescreen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryManagementSystem/screenshots/updatedbook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryManagementSystem/screenshots/updatingbook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryManagementSystem/routes/book.js" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagementSystem/routes/book.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryManagementSystem/src/app/book-detail/book-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagementSystem/src/app/book-detail/book-detail.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryManagementSystem/src/app/book-edit/book-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagementSystem/src/app/book-edit/book-edit.component.ts" afterDir="false" />
-    </list>
+    <list default="true" id="4be206e4-d21a-42e8-9b1f-3796475498c9" name="Default Changelist" comment="Added screenshots" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603382460703</updated>
-      <workItem from="1603382461819" duration="9441000" />
+      <workItem from="1603382461819" duration="9845000" />
     </task>
     <task id="LOCAL-00001" summary="added edit/delete functionality">
       <created>1603390234513</created>
@@ -67,7 +54,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603390234513</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added screenshots">
+      <created>1603396369180</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603396369180</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,7 +69,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added edit/delete functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="added edit/delete functionality" />
+    <MESSAGE value="Added screenshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added screenshots" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-865" y="365" key="Github.ShareDialog" timestamp="1603382485230">
@@ -86,9 +81,10 @@
       <screen x="-1440" y="23" width="1440" height="877" />
     </state>
     <state x="-941" y="173" key="Github.UntrackedFilesDialog/-1440.23.1440.877/0.23.1920.1057@-1440.23.1440.877" timestamp="1603382493292" />
-    <state x="520" y="320" key="Vcs.Push.Dialog.v2" timestamp="1603390248912">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="-1050" y="269" key="Vcs.Push.Dialog.v2" timestamp="1603396375100">
+      <screen x="-1440" y="23" width="1440" height="877" />
     </state>
+    <state x="-1050" y="269" key="Vcs.Push.Dialog.v2/-1440.23.1440.877/0.23.1920.1057@-1440.23.1440.877" timestamp="1603396375100" />
     <state x="520" y="320" key="Vcs.Push.Dialog.v2/-1440.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1603390248912" />
     <state x="-1385" y="23" width="1049" height="793" key="dock-window-1" timestamp="1603384241025">
       <screen x="-1440" y="23" width="1440" height="877" />
